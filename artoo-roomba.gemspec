@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = "artoo-roomba"
   s.version     = Artoo::Roomba::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Ron Evans", "Adrian Zankich"]
+  s.authors     = ["Ron Evans", "Adrian Zankich", "Jake Good"]
   s.email       = ["artoo@hybridgroup.com"]
   s.homepage    = "https://github.com/hybridgroup/artoo-roomba"
   s.summary     = %q{Artoo adaptor and driver for Roomba robot}
