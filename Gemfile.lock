@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    artoo-roomba (0.1.0)
-      artoo (~> 0.5.0)
+    artoo-roomba (1.0.0.pre)
+      artoo (~> 1.0.0.pre)
 
 GEM
   remote: http://rubygems.org/
   specs:
-    artoo (0.5.0)
+    artoo (1.0.0.pre)
       celluloid (~> 0.14.0)
       celluloid-io (~> 0.14.0)
       multi_json (~> 1.6)
@@ -47,7 +47,7 @@ GEM
       websocket_parser (>= 0.1.2)
     slop (3.4.5)
     timers (1.1.0)
-    websocket_parser (0.1.2)
+    websocket_parser (0.1.4)
       http
 
 PLATFORMS
