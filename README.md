@@ -11,5 +11,5 @@ For more information abut Artoo, check out our repo at https://github.com/hybrid
 ## Installing
 
 ```
-gem install artoo-roomba
+gem install artoo-roomba --pre
 ```
