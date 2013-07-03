@@ -1,6 +1,6 @@
 # Artoo Adaptor For Roomba
 
-This repository contains the Artoo (http://artoo.io/) adaptor for the Roomba robot.
+This repository contains the Artoo (http://artoo.io/) adaptor for the iRobot Roomba or Create robots (http://www.irobot.com/us/learn/Educators/Create.aspx).
 
 Artoo is a open source micro-framework for robotics using Ruby.
 
@@ -11,5 +11,30 @@ For more information abut Artoo, check out our repo at https://github.com/hybrid
 ## Installing
 
 ```
-gem install artoo-roomba --pre
+gem install artoo-roomba
 ```
+
+## Using
+
+```ruby
+require 'artoo'
+
+connection :roomba, :adaptor => :roomba, :port => '/dev/ttyUSB0'
+device :roomba, :driver => :roomba, :connection => :roomba
+  
+work do
+  roomba.safe_mode
+  roomba.nudge_left
+  roomba.nudge_right
+  roomba.nudge_right
+  roomba.nudge_left
+end
+```
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
