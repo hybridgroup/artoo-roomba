@@ -5,16 +5,7 @@ module Artoo
     # Connect to a Roomba
     # @see http://www.irobot.com/en/us/robots/Educators/Create.aspx Roomba information
     class Roomba < Adaptor
-      finalizer :finalize
       attr_reader :sp
-
-      # Closes connection if already connected
-      # @return [Boolean]
-      def finalize
-        if connected?
-          @sp.close
-        end
-      end
 
       # Creates serial or tcp connection
       # @return [Boolean]
