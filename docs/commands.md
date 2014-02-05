@@ -4,19 +4,19 @@
 
 Public: Puts roomba in start mode.
 
-Returns nil.
+** Returns nil. **
 
 ## safe_mode
 
 Public: Puts roomba in safe mode.
 
-Returns nil.
+** Returns nil.** 
 
 ## full_mode
 
 Public: Puts roomba in full mode.
 
-Returns nil.
+** Returns nil. ** 
 
 ## forward(seconds, speed=slow) → nil
 
@@ -25,7 +25,7 @@ Public: Moves roomba forward for seconds amount of time at speed (speed(int) bet
 - **seconds** - params
 - **speed=slow** - params
 
-Returns nil.
+** Returns nil. ** 
 
 ## fast_forward(seconds) → nil
 
@@ -33,13 +33,13 @@ Public: Moves roomba forward for seconds amount of time at max speed.
 
 - **seconds** - params
 
-Returns nil.
+** Returns nil. ** 
 
 ## stop
 
 Public: Stops the roomba.
 
-Returns nil.
+** Returns nil. ** 
 
 ## backwards(seconds) → nil
 
@@ -47,19 +47,19 @@ Public: Moves roomba backwards for seconds amount of time at default speed.
 
 - **seconds** - params
 
-Returns nil.
+** Returns nil. ** 
 
 ## nudge_left
 
 Public: Turns roomba a little bit to the left.
 
-Returns nil.
+** Returns nil. ** 
 
 ## nudge_right
 
 Public: Turns roomba a little bit to the right.
 
-Returns nil.
+** Returns nil. ** 
 
 ## turn_left(seconds=1) → nil
 
@@ -67,7 +67,7 @@ Public: Turns roomba to the left the specefied amount of seconds.
 
 - **seconds** - params
 
-Returns nil.
+** Returns nil. ** 
 
 ## turn_right(seconds=1) → nil
 
@@ -75,13 +75,13 @@ Public: Turns roomba to the right the specefied amount of seconds.
 
 - **seconds** - params
 
-Returns nil.
+** Returns nil. ** 
 
 ## turn_around
 
 Public: Turns roomba 180 degrees.
 
-Returns nil.
+** Returns nil. ** 
 
 ## drive(speed, direction, seconds = 0) → nil
 
@@ -91,7 +91,7 @@ Public: Drives the roomba at speed (from 0 to 500) and direction (straight=32768
 - **direction** - params
 - **seconds** - params
 
-Returns nil.
+** Returns nil. ** 
 
 ## play(song_number) → nil
 
@@ -99,7 +99,7 @@ Public: Plays the song specified by song_numer.
 
 - **song_number** - params
 
-Returns nil.
+** Returns nil. ** 
 
 ## song(notes[Collection], song_number[Integer]) → nil
 
@@ -108,10 +108,10 @@ Public: Stores a song in the roomba.
 - **notes[Collection]** - params
 - **song_number[Integer]** - params
 
-Returns nil.
+** Returns nil. ** 
 
 ## beep
 
 Public: Makes roomba beep.
 
-Returns nil.
+** Returns nil. ** 
