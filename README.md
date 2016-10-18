@@ -1,6 +1,6 @@
 # Artoo Adaptor For Roomba
 
-This repository contains the Artoo (http://artoo.io/) adaptor for the iRobot Roomba or Create robots (http://www.irobot.com/us/learn/Educators/Create.aspx).
+This repository contains the Artoo (http://artoo.io/) adaptor for the iRobot Roomba or Create robots (http://www.irobot.com/About-iRobot/STEM.aspx).
 
 Artoo is a open source micro-framework for robotics using Ruby.
 
